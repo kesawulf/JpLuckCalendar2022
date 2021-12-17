@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300);
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: #ccc;
   font-family: Lato, sans-serif;
@@ -7,23 +11,25 @@ body {
 }
 
 #calendar {
-  width: 490px;
   margin: 0 auto;
 }
 
+div .month-div {
+  float:left;
+  margin:2px;
+}
+
 #calendar h2 {
-  line-height: 100px;
+  line-height: 42px;
   margin: 0;
   font-weight: 300;
   color: #fff;
-  background: #60c84f;
+  background: #E88D67;
   text-align: center;
 }
 
 #calendar table {
-  width: 100%;
-  margin-top: -42px;
-  border-collapse: collapse;
+  background: #E88D67;
 }
 
 #calendar .week-days {
@@ -43,7 +49,7 @@ body {
 
 #calendar .week .day:not(.other-month):hover {
   color: #fff;
-  background: #60c84f;
+  background: #EF3054;
 }
 
 #calendar .other-month {
