@@ -15,7 +15,7 @@ body {
 }
 
 div .month-div {
-  float:left;
+  display: inline-block;
   margin:2px;
 }
 
@@ -45,11 +45,6 @@ div .month-div {
 #calendar .week .day {
   background: #eee;
   color: black;
-}
-
-#calendar .week .day:not(.other-month):hover {
-  color: #fff;
-  background: #EF3054;
 }
 
 #calendar .other-month {
