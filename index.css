@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+
+body {
+  background: #ccc;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+}
+
+#calendar {
+  width: 490px;
+  margin: 0 auto;
+}
+
+#calendar h2 {
+  line-height: 100px;
+  margin: 0;
+  font-weight: 300;
+  color: #fff;
+  background: #60c84f;
+  text-align: center;
+}
+
+#calendar table {
+  width: 100%;
+  margin-top: -42px;
+  border-collapse: collapse;
+}
+
+#calendar .week-days {
+  color: #fff;
+}
+
+#calendar .day {
+  width: 70px;
+  height: 40px;
+  text-align: center;
+}
+
+#calendar .week .day {
+  background: #eee;
+  color: black;
+}
+
+#calendar .week .day:not(.other-month):hover {
+  color: #fff;
+  background: #60c84f;
+}
+
+#calendar .other-month {
+  opacity: 0.5;
+}
+
+p {
+  text-align: center;
+}
