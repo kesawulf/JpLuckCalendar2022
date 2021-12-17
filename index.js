@@ -57,7 +57,7 @@ function calendar() {
                 if (info === undefined) {
                     html += '<td class="day" title="' + display_date.toLocaleDateString('en-US', options) + '">' + c + '</td>';
                 } else {
-                    html += '<td class="day" title="' + display_date.toLocaleDateString('en-US', options) + '">' + c + ' (' + info.rank + ')</td>';
+                    html += '<td class="day" title="' + display_date.toLocaleDateString('en-US', options) + '">' + c + ' (' + Number.parseInt(info.rank) + ')</td>';
                 }
 
                 c++;
@@ -290,7 +290,7 @@ function getCsvData() {
     177,1,17
     178,11,11
     179,7,17
-    180,5,5
+    180,4,5
     181,11,5
     182,6,26
     183,2,25
