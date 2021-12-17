@@ -29,7 +29,7 @@ async function calendar() {
         }
         html += '</tr>';
 
-        var weekDay = 0;
+        var weekDay = 0; s
         var nextDate = 1;
         var currDate = 1;
 
