@@ -57,7 +57,7 @@ function calendar() {
                 if (info === undefined) {
                     html += '<td class="day" title="' + display_date.toLocaleDateString('en-US', options) + '">' + c + '</td>';
                 } else {
-                    html += '<td class="day" title="' + display_date.toLocaleDateString('en-US', options) + '">' + c + ' (' + Number.parseInt(info.rank) + ')</td>';
+                    html += '<td class="day" title="' + display_date.toLocaleDateString('en-US', options) + '">' + c + ' <br/>(' + Number.parseInt(info.rank) + ')</td>';
                 }
 
                 c++;
@@ -131,6 +131,7 @@ function getCsvData() {
     20,3,13
     21,12,20
     22,6,18
+    23,6,8
     24,7,11
     25,9,11
     26,8,8
@@ -144,16 +145,13 @@ function getCsvData() {
     34,8,14
     35,10,31
     36,12,26
-    37,8,14
-    35,10,31
-    36,12,26
     37,8,3
     38,10,21
     39,3,30
     40,6,23
     41,11,27
-    42,8,21
-    43,10,10
+    42,7,21
+    43,8,10
     44,6,7
     45,6,12
     46,7,20
@@ -314,7 +312,7 @@ function getCsvData() {
     201,11,23
     202,12,28
     203,11,28
-    204,5,7
+    204,5,17
     205,12,16
     206,9,20
     207,3,19
@@ -328,7 +326,7 @@ function getCsvData() {
     215,10,5
     216,3,24
     217,7,31
-    218,4,28
+    218,5,28
     219,7,26
     220,9,10
     221,2,10
@@ -377,7 +375,7 @@ function getCsvData() {
     264,7,22
     265,11,16
     266,8,12
-    267,7,22
+    267,8,22
     268,3,26
     269,2,14
     270,4,22
@@ -433,7 +431,7 @@ function getCsvData() {
     320,3,22
     321,2,8
     322,8,20
-    323,10,29
+    323,10,28
     324,8,21
     325,1,9
     326,5,22
